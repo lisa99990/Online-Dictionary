@@ -1,0 +1,75 @@
+.center{
+    text-align: center;
+}
+body{
+    background-image: url('/purple.jpg');
+    font-family: cursive;
+}
+.headerClass{
+ font-weight: bold;
+ font-size: large;
+ font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+ color: darkolivegreen;
+ /* background-color: rgb(76 59 106 / 82%); */
+ background-color: rgb(179, 178, 178);
+}
+.mainClass{
+width: 80%;
+ max-height: 90%;
+ margin: 0 auto;
+ text-align: left;  
+ background-color: rgb(220, 227, 245);
+ box-shadow: 5px 10px #7f9277;
+ 
+
+}
+ul{
+    font-size: 10px;
+}
+li {
+    padding: 10px;
+    list-style-type: none;
+    margin: 10px 0;
+    }
+
+.button1{
+    display: inline-block;
+    border: 0.1em solid #c8c3c3;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #f2f2f2;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #665983;
+}
+
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    }
+    @keyframes bouncy {
+        0%{top:0em}
+        40%{top:0em}
+        43%{top:-0.9em}
+        46%{top:0em}
+        48%{top:-0.4em}
+        50%{top:0em}
+        100%{top:0em;}
+    }
+
+.lower{
+        padding-top: 10px;
+    }
+
+img{
+    width: 50%;
+    }
+
+.validator{
+float: right;
+padding-top: 25%;
+}
